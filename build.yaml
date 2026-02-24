@@ -22,6 +22,7 @@ include:
     shield: corne_tp_left nice_view_adapter nice_view
   - board: nice_nano_v2
     shield: corne_tp_right nice_view_adapter nice_view
+    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DMOUSE_PS2_ALT_PINS
 
   # Settings Reset firmware
   # This will build a firmware that can wipe all settings from your
